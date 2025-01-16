@@ -1,0 +1,14 @@
+﻿using FileProcessingLib.Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FileProcessingLib.Application.Interfaces
+{
+    public interface IOutputSerializer
+    {
+        string Serialize(List<OutputData> data);
+    }
+}
